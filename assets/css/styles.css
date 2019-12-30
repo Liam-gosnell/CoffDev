@@ -1,0 +1,156 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/*Containers*/
+.container-wrapper--img{
+    height: 60vh;
+background-color: #f4f4f4;
+color: #758184;
+
+}
+.container-outer-img{
+    height: 100vh;
+background: url("../images/bdesk.jpeg") no-repeat bottom right fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+color: #fff;
+position: relative
+}
+
+.callout-container {
+    height: 100vh;
+
+    
+  background: url("../images/coffee.jpeg") no-repeat bottom right fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: relative
+}
+
+.opaque-overlay{
+    position: absolute;
+    top:0;
+    left:0;
+    height: 100%;
+    width:100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+ 
+ .about-container{
+
+ }
+
+ .work-container{
+
+
+ }
+
+/*Page headers*/
+.page-header{
+    margin-bottom:0;
+    border-bottom: 0;
+    text-align:center;
+}
+
+.page-header h2{
+    margin-top:0;
+
+}
+
+.quotes .page-header{
+    margin-bottom: 25px; 
+}
+
+
+
+
+
+/*Block dividers*/
+.divider{
+    width: 75px;
+    height: 5px;
+    border: 0;
+    background-color: #444;
+    
+}
+.divider--white{
+    background-color: #fff;
+}
+.divider--short {
+    width:35px;
+}
+.divider--black{
+    background-color: #000;
+}
+
+/*Content containers */
+
+.content-container{
+    padding-top:75px;
+    padding-bottom:75px;
+}
+
+/*Navbar*/
+
+.nav-container{
+    position: absolute;
+    top:0;
+    left:0;
+    padding-left: 0;
+    padding-right: 0;
+    z-index: 1;
+}
+
+.navbar{
+    margin-bottom:0;
+    border:0;
+    width:100%;
+    background-color: rgba(0, 0, 0, 0.60);
+}
+
+.navbar .navbar-toggler{
+    border:0;
+}
+
+.navbar-brand{
+    font-weight: bold;
+}
+
+.navbar .navbar-nav a {
+font-weight: bold;
+
+}
+/*Jumbotron*/
+
+.jumbotron{
+    background-color: transparent;
+}
+
+.jumbotron-header{
+    color:white;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.jumbotron .lead{
+     margin: 25px 0;
+     color: #a5aab5;
+}
+
+
+.jumbotron small{
+    font-size: 60%;
+    font-style: italic;
+    color:#d0d0d0;
+}
