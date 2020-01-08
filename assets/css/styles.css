@@ -1,26 +1,42 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
-
+.heading{
+    color: #5d5b6a;
+}
 /*Containers*/
 .container-wrapper--img{
-    height: 60vh;
+   
 background-color: #f4f4f4;
-color: #758184;
+color: #5e8994;
 
 }
+
+
 .container-outer-img{
-    height: 100vh;
-background: url("../images/bdesk.jpeg") no-repeat bottom right fixed; 
+
+    
+}
+   
+
+
+.container-wrapper{
+background: url("../images/coff.jpeg") no-repeat bottom right fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+
+  display: flex;
   align-items: center;
   justify-content: center;
+
+  position: relative;
+
 color: #fff;
-position: relative
+   
 }
+
 
 .callout-container {
     height: 100vh;
@@ -36,7 +52,7 @@ position: relative
   align-items: center;
   justify-content: center;
 
-  position: relative
+  position: relative;
 }
 
 .opaque-overlay{
@@ -91,8 +107,8 @@ position: relative
 .divider--short {
     width:35px;
 }
-.divider--black{
-    background-color: #000;
+.divider--dark{
+    background-color: #5d5b6a;
 }
 
 /*Content containers */
@@ -154,3 +170,39 @@ font-weight: bold;
     font-style: italic;
     color:#d0d0d0;
 }
+
+
+
+
+.skill-row{
+  width:50%;
+  margin: 100px auto 100px auto;
+   text-align: left;
+
+
+}
+
+.
+
+.middle-container{
+margin: 100px 0;
+}
+
+/*Footer*/
+
+.page-footer{
+    background-color: #e8d4b4;
+
+}
+
+/*media*/
+
+@media screen and (max-width:943px ) {
+
+    
+}
+
+
+
+
+
