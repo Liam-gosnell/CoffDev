@@ -2,20 +2,29 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 .heading{
-    color: #5d5b6a;
+    
+    color: #272121;
+}
+
+.heading-w{
+    color: #fff;
+}
+
+.figure-caption {
+    color: #fff;
 }
 /*Containers*/
 .container-wrapper--img{
    
 background-color: #f4f4f4;
-color: #5e8994;
+color: #696464
 
 }
 
 
 .container-outer-img{
 
-    
+    background-color: #272121;
 }
    
 
@@ -191,7 +200,7 @@ margin: 100px 0;
 /*Footer*/
 
 .page-footer{
-    background-color: #e8d4b4;
+    background-color: #e9e5dd;
 
 }
 
@@ -201,7 +210,6 @@ margin: 100px 0;
 
     
 }
-
 
 
 
